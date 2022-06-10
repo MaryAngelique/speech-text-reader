@@ -16,7 +16,7 @@
 
 Users should be able to:
 
-#### - 
+#### - Choose 
 
 #### - 
 
@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ GitHub Solution](GitHub )
-- Live Site URL: [ Website](Deployed website)
+- Solution URL: [Speech Text Reader GitHub Solution](https://github.com/MaryAngelique/speech-text-reader)
+- Live Site URL: [Speech Text Reader Website](https://speech-text-reader-zero.vercel.app/)
 
 ## My process
 
