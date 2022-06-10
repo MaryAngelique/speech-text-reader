@@ -55,3 +55,30 @@ const data = [
       text: "I Want To Go To Grandmas"
     }
 ];
+
+data.forEach(createBox);
+
+// Create speech boxes
+function createBox(item) {
+    const box = document.createElement('div');
+
+    const { image, text } = item;
+
+    box.classList.add("box");
+
+    box.innerHTML = `
+        <img src="${image}" alt="${text}" />
+        <p class="info">${text}</p>
+    `;
+
+    box.addEventListener("click", () => {
+        setTextMessage(text);
+        speakText();
+
+        // Add active effect
+        box.classList.add("active");
+        setTimeout(() => box.classList.remove("active"), 800);
+    });
+
+    main.appendChild(box);
+}
