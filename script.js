@@ -82,3 +82,22 @@ function createBox(item) {
 
     main.appendChild(box);
 }
+
+// Toggle text box
+toggleBtn.addEventListener("click", () =>
+    document.getElementById("text-box").classList.toggle("show")
+);
+
+// Close button
+closeBtn.addEventListener("click", () =>
+  document.getElementById("text-box").classList.remove("show")
+);
+
+// Change voice
+voicesSelect.addEventListener("change", setVoice);
+
+// Read text button
+readBtn.addEventListener("click", () => {
+  setTextMessage(textarea.value);
+  speakText();
+});
