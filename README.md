@@ -16,11 +16,11 @@
 
 Users should be able to:
 
-#### - Choose 
+#### - Click on any of the given choices
 
-#### - 
+#### - Input a custom text
 
-#### - 
+#### - Choose between different voice and language options
 
 
 ### Links
